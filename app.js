@@ -1,18 +1,12 @@
-const h1 = document.querySelector("div.hello:first-child h1");
+const loginForm = document.querySelector("#login-form");
+const loginInput = document.querySelector("#login-form input");
 
-
-function handleTitleClick() {
-    
-
-    h1.classList.toggle("clicked");
-
-    // const clickedClass = "clicked"
-
-    // if(h1.classList.contains(clickedClass)) {
-    //     h1.classList.remove(clickedClass);
-    // } else {
-    //     h1.classList.add(clickedClass);
-    // }
+function onLoginSubmit(event) {
+    event.preventDefault();
+    console.log(event);
+    const username = loginInput.value;
+    console.log(username);
 }
 
-h1.addEventListener("click", handleTitleClick);
+
+loginForm.addEventListener("submit", onLoginSubmit);
