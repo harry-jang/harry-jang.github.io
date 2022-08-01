@@ -7,3 +7,30 @@
     bottom: 0;
     width: 100%;
 }
+
+body {
+    color: azure;
+}
+
+img {
+    opacity: 0.5;
+    width: fit-content;
+    height: fit-content;
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: bottom right,
+        left,
+        right;
+}
+
+div {
+    background-color: black;
+}
+
+#todo {
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
