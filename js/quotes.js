@@ -1,39 +1,39 @@
 const quotes = [
     {
-        quote: "a",
-        author: "John"
+        quote: "Confidence is contagious. So is lack of confidence.",
+        author: "Vince Lombardi"
     },
     {
-        quote: "a2",
-        author: "John2"
+        quote: "Shallow men believe in luck, Strong men believe in cause and effect.",
+        author: "Ralph Waldo Emerson"
     },
     {
-        quote: "a3",
-        author: "John3"
+        quote: "Nothing is less productive than to make more efficient what should not be done at all.",
+        author: "Peter Drucker"
     },
     {
-        quote: "a4",
-        author: "John4"
+        quote: "Do not follow where the path may lead. Go instead where there is no path and leave a trail.",
+        author: "Ralph Waldo Emerson"
     },
     {
-        quote: "a5",
-        author: "John5"
+        quote: "He is richest who is content with the least.",
+        author: "Socrates"
     },
     {
-        quote: "a6",
-        author: "John6"
+        quote: "Choose a job you love, and you will never have to work a day in your life.",
+        author: "Confucius"
     },
     {
-        quote: "a7",
-        author: "John7"
+        quote: "Only those who dare to fail greatly can ever achieve greatly.",
+        author: "John F. Kennedy"
     },
     {
-        quote: "a8",
-        author: "John8"
+        quote: "As I grow older, I pay less attention to what men say. I just watch what they do.",
+        author: "Andrew Carnegie"
     },
     {
-        quote: "a9",
-        author: "John9"
+        quote: "Well begun is half done.",
+        author: "Aristoteles"
     }
 ]
 
@@ -44,5 +44,5 @@ const randomNumber = Math.floor(Math.random() * quotes.length);
 const todaysQuote = quotes[randomNumber];
 
 
-quote.innerText = todaysQuote.quote;
+quote.innerText = `"${todaysQuote.quote}"`;
 author.innerText = todaysQuote.author;

@@ -10,28 +10,33 @@
 </head>
 
 <body class="background">
-    <form id="login-form" class="hidden">
-        <input required type="text" maxlength="15" placeholder="What is your name?" />
-        <input type="submit" value="Log In" />
-    </form>
-
-    <h2 id="clock">00:00:00</h2>
-    <h1 id="greeting" class="hidden"></h1>
-    <div id="todo">
-        <form id="todo-form">
-            <input type="text" placeholder="Write a To Do and Press Enter" required />
+    <div class="top">
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    
+    <div class="wrapper">      
+       <h2 id="clock">00:00:00</h2>
+        <form id="login-form" class="hidden">
+            <input class="text-input" required type="text" maxlength="15" placeholder="What is your name?" />
+            <input type="submit" value="Log In" />
         </form>
-        <ul id="todo-list">
-        </ul>
-    </div>
-    <div id="weather">
-        <span></span>
-        <span></span>
-    </div>
+        <h1 id="greeting" class="hidden"></h1>
+        <div id="todo">
+            <form id="todo-form">
+                <input class="text-input" type="text" placeholder="Write a To Do and Press Enter" required />
+            </form>
+            <ul id="todo-list">
+            </ul>
+        </div>
+    </div> 
+    
     <div class="bottom">
         <div id="quote">
-            <span></span>
-            <span></span>
+            <span style="display:block;text-align: center;"></span>
+            <span style="display:block;text-align: center;" class="hidden"></span>
         </div>
     </div>
     <script src="js/greetings.js"></script>

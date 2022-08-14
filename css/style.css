@@ -1,13 +1,3 @@
-.hidden {
-    display: none;
-}
-
-.bottom {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 body {
     color: azure;
 }
@@ -24,13 +14,61 @@ img {
         right;
 }
 
-div {
-    background-color: black;
+.text-input {
+    border:0;
+    background-color: unset;
+    color: azure;
+    border-bottom: 2px solid #fff;
 }
+
+.hidden {
+    display: none;
+}
+
+.top {
+    height: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 0 0 auto;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    place-items: center;
+}
+
 
 #todo {
     align-items: center;
     align-content: center;
     align-self: center;
-    text-align: center;
+    width: 50%;
 }
+
+#todo-form input {
+    width: -webkit-fill-available;
+}
+
+#weather {
+    text-align: right;
+}
+
+#clock {
+    font-size: 1000%;
+    letter-spacing: -5px;
+    font-weight: 500;
+    margin: 0px
+}
+
+#greeting {
+    font-size: 300%;
+    font-weight: 500;
+    margin: 10px
+}
+
