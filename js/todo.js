@@ -29,7 +29,7 @@ function paintToDo(newToDoObj) {
     span.innerText = newToDoObj.text;
     const button = document.createElement("button");
     button.style.backgroundColor = "unset";
-    button.style.borderColor = "unset";
+    button.style.borderColor = "azure";
     button.style.marginLeft = "10px";
     button.innerText = "❌";
     button.addEventListener("click", deleteToDo);

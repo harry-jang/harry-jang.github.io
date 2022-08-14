@@ -43,6 +43,10 @@ img {
     place-items: center;
 }
 
+.empty-area {
+    height: 300px;
+}
+
 
 #todo {
     align-items: center;
