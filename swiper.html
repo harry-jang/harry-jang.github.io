@@ -13,7 +13,7 @@
         html,
         body {
             position: relative;
-            height: 100%;
+            height: 4096px;
         }
 
         :root {
@@ -30,8 +30,8 @@
         }
 
         .swiper {
-            width: 100%;
-            height: 100%;
+            width: 400px;
+            height: max-content;
         }
 
         .swiper-slide {
@@ -56,8 +56,8 @@
 
         .swiper-slide img {
             display: block;
-            width: 100%;
-            height: 100%;
+            width: 400px;
+            height: 400px;
             object-fit: cover;
         }
 
@@ -65,10 +65,19 @@
             margin-left: auto;
             margin-right: auto;
         }
+
+        .test-main {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
     </style>
 </head>
 
 <body>
+    <div class="test-main">
+        <h1>남주 포트폴리오 테스트</h1>
+    </div>
     <!-- Swiper -->
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
