@@ -22,7 +22,7 @@ social-email: # add your Email address
 discus-identifier: mr-brown # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: G-5RSGD2TJ9M # Google Analytics
 
 # Build Settings
 markdown: kramdown
