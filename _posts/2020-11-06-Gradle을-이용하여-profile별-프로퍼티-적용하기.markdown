@@ -2,7 +2,7 @@
 layout: post
 title:  "[SpringBoot] Gradle을 이용하여 profile별 프로퍼티 적용하기"
 date:   2020-11-06 17:25:41 +0900
-img: springboot.jpg # Add image post (optional)
+img: springboot.png # Add image post (optional)
 tags: [Java, Gradle, Spring, Springboot] # add tag
 ---
 ### 사용 버전
