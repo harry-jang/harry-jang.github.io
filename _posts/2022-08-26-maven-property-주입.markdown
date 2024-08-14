@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[SpringBoot] Maven property 주입하기"
-date:   2022-08-04 00:00:00 +0900
+date:   2022-08-26 00:00:00 +0900
 img: springboot_maven.png # Add image post (optional)
 tags: [Springboot, Maven] # add tag
 ---
