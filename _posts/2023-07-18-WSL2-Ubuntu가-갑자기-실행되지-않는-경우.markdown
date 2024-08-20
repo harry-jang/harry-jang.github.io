@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "[Windows Terminal] WSL2 Ubuntu가 갑자기 실행되지 않는 경우 해결법"
+date:   2023-07-18 09:00:00 +0900
+img: wsl.png # Add image post (optional)
+tags: [WSL2, Ubuntu, Windows Terminal] # add tag
+---
+
+가끔 설정을 변경하거나 잘 못 건드리는 경우, Windows Terminal로 `Ubuntu` 실행 시 다음과 같은 화면이 뜨고 실행이 되지 않는 경우가 있습니다.
+
+![에러 화면]({{site.baseurl}}/assets/img/wsl2_error.png)
+
+이 경우 환경변수가 어떠한 이유로 인해 제거된 것으로 다시 환경변수를 추가해주면 정상적으로 동작하게 됩니다.
+
+**[해결 방법]**
+
+1. Windows 키 + r 입력하여 실행창을 열어 `sysdm.cpl ,3` 입력 후 엔터. (혹은 작업표시줄 검색창에서 환경변수 검색)
+	![]({{site.baseurl}}/assets/img/wsl2_error_solv_1.png)
+1. 고급 탭에서 환경 변수(N)버튼 클릭
+	![]({{site.baseurl}}/assets/img/wsl2_error_solv_2.png)
+    
+1. 사용자 변수 혹은 시스템 변수에서 `Path` 변수 편집버튼 클릭 
+	![]({{site.baseurl}}/assets/img/wsl2_error_solv_3.png)
+
+1. `Path` 변수항목에 **C:\Users\\{사용자이름}\AppData\Local\Microsoft\WindowsApps**을 추가한다. _(Microsoft store를 통해 설치한 경우) _
+	![]({{site.baseurl}}/assets/img/wsl2_error_solv_4.png)
+
+1. 확인버튼을 눌러 설정창을 닫고 Windows Terminal 다시 실행하여 정상 출력 확인!
+![]({{site.baseurl}}/assets/img/wsl2_error_solv_5.png)
+
