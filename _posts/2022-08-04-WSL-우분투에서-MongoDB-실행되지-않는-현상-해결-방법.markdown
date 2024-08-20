@@ -2,7 +2,7 @@
 layout: post
 title:  "[Ubuntu] WSL 우분투에서 MongoDB 실행되지 않는 현상 해결 방법"
 date:   2022-08-04 00:00:00 +0900
-img: wsl.png # Add image post (optional)
+img: wsl_mongodb.png # Add image post (optional)
 tags: [WSL, WSL2, Ubuntu, MongoDB] # add tag
 ---
 
