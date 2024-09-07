@@ -42,7 +42,9 @@ tags: [DataStructure, BloomFilter] # add tag
 반대로  False Negative(부정 오류)의 가능성은 없음.
 
 >**bloomFilter 최적 값 계산**
+>
 >긍정오류(false positive)의 확률을 줄이기 위해 hash function의 갯수 및 bitmap size를 조절하는 방식으로 최적값을 찾아 설정해야 정확도를 높일 수 있음
+>
 >[https://hur.st/bloomfilter/?n=500&p=0.0001&m=&k=](https://hur.st/bloomfilter/?n=500&p=0.0001&m=&k=)
 
 
