@@ -13,6 +13,7 @@ tags: [DataStructure, BloomFilter] # add tag
 
 ## 원리
 블룸필터는 값을 저장하는 비트배열과 해시함수들로 구성되어 있음.
+
 해시함수들을 이용해서 원소를 해시코드로 변환한 결과를 모듈러연산을 통해 비트배열에 각 비트 위치에 저장하는 구조.
 
 ![블룸 필터의 원리]({{site.baseurl}}/assets/img/bloomFilter_principle.png)
@@ -47,8 +48,9 @@ tags: [DataStructure, BloomFilter] # add tag
 
 ### 원소 추가만 가능
 
-집합 내에 원소를 추가하는 것은 가능하나 삭제하는 것은 불가능
-현재는 Counting Bloom FIlter나 Cuckoo Filter라는 삭제 가능한 개량 모델도 나옴
+집합 내에 원소를 추가하는 것은 가능하나 삭제하는 것은 불가능.
+
+현재는 Counting Bloom Filter나 Cuckoo Filter라는 삭제 가능한 개량 모델도 나옴.
 
 
 ## 사용 예
