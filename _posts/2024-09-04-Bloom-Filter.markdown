@@ -2,7 +2,7 @@
 layout: post
 title:  "[자료구조] BloomFilter"
 date:   2024-09-05 09:00:00 +0900
-img: bloomfilter.jfif # Add image post (optional)
+img: bloom-filter.webp # Add image post (optional)
 tags: [DataStructure, BloomFilter] # add tag
 ---
 
@@ -90,7 +90,7 @@ tags: [DataStructure, BloomFilter] # add tag
         
 4. 블록체인
     1. SPV(간이 결제 확인) 노드     
-    
+
         전체 블록체인을 다운로드하지 않고, 특정 트랜잭션이 블록체인에 포함되어 있는지 확인하는 용도로 사용
         
 
