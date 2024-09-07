@@ -17,13 +17,17 @@ tags: [DataStructure, BloomFilter] # add tag
 
 ![블룸 필터의 원리]({{site.baseurl}}/assets/img/bloomFilter_principle.png)
 
+
 예를 들어 비트배열의 사이즈(m)가 18, 해시함수의 갯수(k)가 3인 블룸필터로 {x, y, z} 집합을 표현한다고 가정.
+
 집합 내의 원소 x에 대해서 각 해시함수를 실행하여 나온 결과값에 모듈러 연산을 해서 비트배열에 들어갈 인덱스 값을 구함.
+
 나머지 원소들도 동일하게 계산하여 해당되는 인덱스에 값을 1로 채움.  
 
 ![블룸 필터의 원리]({{site.baseurl}}/assets/img/bloomFilter_array.png)
 
 새로운 원소 w에 대해서 해당 집합에 포함되는지 확인한다면, 비트배열을 채울 때와 동일하게 각 해시함수를 돌려 해당 비트배열 인덱스에 값이 1인지 확인.
+
 하나라도 1이 아닌 경우 포함되지 않는 걸로 판단.
 
 
